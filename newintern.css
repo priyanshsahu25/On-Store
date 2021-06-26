@@ -1,0 +1,1027 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+/*    .swiper-container {
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+     */
+.extrabg{
+   background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/xcard.png.pagespeed.ic.HqMQFXi7Kw.webp');
+    height: 500px;
+}
+.sty{
+  margin-top: -100px;
+  margin-left: -80px;
+  height: 600px;
+  position: absolute;
+}
+ .bestprod{
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 100px;
+ }
+   .manz{
+    margin-top: 185px;
+    text-orientation: 150deg;
+    writing-mode: vertical-lr;
+   
+    transform: rotate(
+180deg
+);
+    font-size: 117px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #e6dfc6;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    
+  }
+ .bestprodsmall{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .bestprodbtn{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+ }
+  .bestprodbtn:hover{
+    border-radius: 24px;
+    background-color: black;
+    color: #fff7d8;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+        box-shadow: 0 20px 50px 0 rgb(22 22 22 / 20%);
+ }
+  .bag{
+ bottom: 0px;
+ position: absolute;
+  }
+
+.onstore{
+    color: black;
+    font-size: 40px;
+
+}
+.navbar-toggler{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+border-color: black;
+
+}
+.navbar-toggler .home { 
+   border: none;
+     }
+     .navlist
+{
+margin-left: 80px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: black;
+}
+.navbar-nav
+{
+margin-left: 140px;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+.onstore{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 100px;
+    font-size: px;
+}
+.home{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.homeot:hover{
+    color:#717fe0;
+    border-bottom: 2px solid black;
+}
+  .swiper-container {
+        width: 100%;
+        height: 80%;
+        margin-top: 50px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+       width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
+.carbigheadline{
+    font-size: 30px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+}
+.carsmallheadline{
+    margin-top: 10px;
+    font-size: 65px;
+    color: black;
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 600;
+
+}
+.carlinebox{
+    margin-top: -430px;
+}
+.carbigword
+{
+    color: #ffb320;
+}
+.carobtn{
+
+    color: white;
+    background-color: #717fe0;
+
+     padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 150px;
+
+}
+
+.carobtn:hover{
+
+    color: white;
+    background-color:black;
+
+     padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 150px;
+
+}
+
+.carbigheadline1{
+    font-size: 30px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+
+
+}
+.carsmallheadline1{
+    margin-top: 10px;
+    font-size: 65px;
+    color: black;
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 600;
+  font-family: 'Playfair Display SC', serif;
+
+}
+.menwomenbox1{
+	border: 1px solid #CCCCCC;
+	margin-left: 0px;
+	 transition: 0.5s;
+	 transition-timing-function: ease-in;
+}
+
+.menwomenbox1:hover {
+background-color:rgba(113, 127, 224, 0.5) ;
+display: block;
+color: black;
+}
+.menwomenbox{
+	border: 1px solid #CCCCCC;
+	margin-left: 30px;
+     transition-timing-function: ease-in;
+     transition: 0.5s;
+
+}
+.menwomenbox:hover{
+	background-color:rgba(113, 127, 224, 0.5) ;
+display: block;
+color: black;
+}
+.menwomentextbig{
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 30px;
+
+}
+.menwomentextbigacce{
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 29px;
+} 
+.menwomentextsmall{
+	
+	color: grey;
+	text-align: left;
+} 
+.menwomenbtn{
+	background-color:black ;
+	border-radius: 22px;
+	color: white;
+	border: 2px solid rgba(113, 127, 224, 1) ;
+	display: none;
+}
+.subsbtn{
+        background-image: linear-gradient(to right, #fd0007 , #cb018e);
+    color: white;
+    border-radius: 22px;
+    width: 120px;
+    margin-top: 20px;
+}
+.menwomenbox1:hover .menwomentextsmall {
+color: black;
+font-weight: 500; 
+}
+.menwomenbox1:hover .menwomenbtn { 
+	background-color:white; display: block;
+	color: black;
+	font-weight: 600;
+	 }
+.menwomenbox:hover .menwomentextsmall {
+color: black;
+font-weight: 500; 
+}
+.menwomenbox:hover .menwomenbtn { 
+	background-color: white ; display: block;
+	color: black;
+	font-weight: 600;
+	 }
+.producttext{
+	color: grey;
+	transition: transform 0.5s;
+}
+.productprice{
+	color: black;
+	font-weight: 400;
+	margin-top: -15px;
+}
+.geek{
+  width: 100%;
+  height: 200px;
+  border-radius: 1%;
+  overflow: hidden;
+
+}
+.productimg{
+  width: 100%;
+  height: auto;
+  border-radius: 1%;
+  transform: scale(1.0);
+  transition: transform 0.5s;
+  position: relative;
+}
+.productimg:hover {
+  transform: scale(1.15);
+}
+.productimg:hover ~ .producttext { margin-top: 30px; }
+.bg{
+      background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    background-image: url('cool.jpg');
+    }
+.whitebg{
+	background-color: white;
+	position: absolute;
+	margin-top: 180px;
+
+}
+.offer{
+	font-weight: 450;
+	
+
+
+}
+.deal{
+	font-family: "Libre Baskerville", serif;
+	font-size: 45px;
+}
+.shopnow{
+	background-color: black;
+	color: white;
+}
+.foot a{
+    color: white;
+}
+.boystech{
+    height: 255px;
+
+}
+.topi{
+    height: 180px;
+    margin-top: 50px;
+   
+}
+.trendy{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    font-weight: 550;
+    font-size: 50px;
+}
+.allp{
+    color: grey;
+    font-weight: 700;
+   
+}
+.allp:hover{
+    color: black;
+}
+.allaother{
+    color: grey;
+    margin-left: 20px;
+}
+.allaother:hover{
+    color: black;
+    font-weight: 700;
+}
+.po{
+    font-family: Poppins-Bold;
+    font-weight: 500;
+    font-size: 45px;
+
+}
+
+/************************320 & 480*********************************/
+
+@media (min-width: 320px)  and (max-width: 480px)
+{
+     
+.gayab{
+    display: none;
+}
+.extrabg{
+   background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/xcard.png.pagespeed.ic.HqMQFXi7Kw.webp');
+    height: 300px;
+}
+ .bestprod{
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+ }
+ .bestprodsmall{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+ }
+ .bestprodbtn{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 60px;
+ } 
+  .bestprodbtn:hover{
+    border-radius: 24px;
+    background-color: black;
+    color: #fff7d8;
+    width: 120px;
+    height: 40px;
+    margin-left: 60px;
+        box-shadow: 0 20px 50px 0 rgb(22 22 22 / 20%);
+ } 
+  .bag{
+ bottom: 0px;
+ position: absolute;
+ margin-left: -20px;
+  }
+
+
+     .navlist
+{
+margin-left: 00px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: black;
+}
+.navbar-nav
+{
+margin-left: 0px;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+.home{
+    border: none;
+}
+ .swiper-container {
+        width: 90%;
+        height: 50%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+       width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.swiper-pagination{
+    display: none;
+}
+.swiper-button-prev{
+ display: none;
+}
+
+.carlinebox{
+    margin-top: 100px;
+}
+
+.carbigheadline{
+    font-size: 12px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   margin-left: -30px;
+
+}
+.carsmallheadline{
+    margin-top: 0px;
+    font-size: 18px;
+    color: black;
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 600;
+    margin-left: -25px;
+
+}
+
+.carbigheadline1{
+  font-size: 12px;
+color: black;
+font-weight: 700;
+   margin-left: -30px;
+
+
+}
+.carsmallheadline1{
+     margin-top: 0px;
+    font-size: 18px;
+    color: black;
+font-weight: 600;
+    margin-left: -25px;
+
+    margin-top: 0px;
+    font-size: 18px;
+    color: black;
+
+    margin-left: -25px;
+
+    font-weight: 600;
+  font-family: 'Playfair Display SC', serif; margin-top: 0px;
+    font-size: 18px;
+    color: black;
+font-weight: 600;
+    margin-left: -25px;
+
+
+}
+
+
+.carobtn{
+
+    color: white;
+    background-color: #717fe0;
+font-size: 10px;
+margin-left: -20px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 90px;
+  height: 25px;
+
+}
+
+.carobtn:hover{
+
+    color: white;
+    background-color:black;
+    font-size: 10px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 90px;
+  height: 25px;
+
+}
+
+.menwomenbox1{
+    border: 1px solid #CCCCCC;
+    margin-left: 0px;
+
+}
+
+
+.menwomenbox{
+    border: 1px solid #CCCCCC;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.menwomentextbigacce{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 28px;
+} 
+
+.bg{
+      background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    background-image: url('https://preview.colorlib.com/theme/product/images/xhero_bg_1.jpg.pagespeed.ic.HmpV2DGVQl.webp');
+    }
+.whitebg{
+    background-color: white;
+    position: absolute;
+    margin-top: 80px;
+
+}
+
+.allp{
+    color: grey;
+    font-weight: 700;
+    margin-left: 20px;
+   
+}
+.allaother{
+    color: grey;
+    margin-left: 20px;
+}
+.po{
+    font-family: Poppins-Bold;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 20px;
+    
+}
+}
+
+/**********481 & 768**********************/
+@media (min-width: 481px)  and (max-width: 768px)
+{
+   
+.gayab{
+    display: none;
+}
+.extrabg{
+   background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/xcard.png.pagespeed.ic.HqMQFXi7Kw.webp');
+    height: 300px;
+}
+ .bestprod{
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+ }
+ .bestprodsmall{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+ }
+ .bestprodbtn{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+ }
+   .bestprodbtn:hover{
+    border-radius: 24px;
+    background-color: black;
+    color: #fff7d8;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+        box-shadow: 0 20px 50px 0 rgb(22 22 22 / 20%);
+ }  
+
+  .bag{
+ bottom: 0px;
+ position: absolute;
+ margin-left: -10px;
+  }
+
+
+
+     .navlist
+{
+margin-left: 00px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: black;
+}
+.navbar-nav
+{
+margin-left: 0px;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+.home{
+    border: none;
+}
+.carlinebox{
+    margin-top: 100px;
+}
+
+.carbigheadline{
+    font-size: 17px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   margin-left: -30px;
+
+}
+.carsmallheadline{
+    margin-top: 0px;
+    font-size: 22px;
+    color: black;
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 600;
+    margin-left: -25px;
+
+}
+
+.carbigheadline1{
+  font-size: 17px;
+color: black;
+font-weight: 700;
+   margin-left: -30px;
+
+
+}
+.carsmallheadline1{
+     margin-top: 0px;
+    font-size: 22px;
+    color: black;
+font-weight: 600;
+    margin-left: -25px;
+    color: black; 
+  font-family: 'Playfair Display SC', serif; margin-top: 0px;
+
+}
+
+
+.carobtn{
+
+    color: white;
+    background-color: #717fe0;
+font-size: 12px;
+margin-left: -20px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100px;
+  height: 35px;
+
+
+}
+
+.carobtn:hover{
+
+    color: white;
+    background-color:black;
+    font-size: 12px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+   width: 100px;
+  height: 35px;
+
+}
+
+.menwomenbox1{
+	border: 1px solid #CCCCCC;
+	margin-left: 0px;
+}
+.menwomenbox{
+	border: 1px solid #CCCCCC;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.menwomentextbigacce{
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 28px;
+} 
+.bg{
+      background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    background-image: url('https://preview.colorlib.com/theme/product/images/xhero_bg_1.jpg.pagespeed.ic.HmpV2DGVQl.webp');
+    }
+.whitebg{
+	background-color: white;
+	position: absolute;
+	margin-top: 80px;
+
+}
+
+ .swiper-container {
+        width: 100%;
+        height: 70%;
+      }
+
+}
+/***********************************769 & 1024******************* */
+
+
+@media (min-width: 769px)  and (max-width: 1024px)
+{
+   
+.extrabg{
+   background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/xcard.png.pagespeed.ic.HqMQFXi7Kw.webp');
+    height: 500px;
+}
+.sty{
+  margin-top: -100px;
+  margin-left: -110px;
+  height: 600px;
+  position: absolute;
+}
+ .bestprod{
+  font-family: "Playfair Display",serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 100px;
+ }
+   .manz{
+    margin-top: 185px;
+    text-orientation: 150deg;
+    writing-mode: vertical-lr;
+   
+    transform: rotate(
+180deg
+);
+    font-size: 117px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #e6dfc6;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    
+  }
+ .bestprodsmall{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .bestprodbtn{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+ }
+  .bag{
+ bottom: 0px;
+ position: absolute;
+ margin-left: -20px;
+  }
+
+
+     .navlist
+{
+margin-left: 700px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: black;
+}
+.navbar-nav
+{
+margin-left: 0px;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+.home{
+    border: none;
+}
+.carlinebox{
+    margin-top: -200px;
+}
+
+.carbigheadline{
+    font-size: 25px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   margin-left: -30px;
+
+}
+.carsmallheadline{
+    margin-top: 0px;
+    font-size: 32px;
+    color: black;
+    font-family: PlayfairDisplay-Bold;
+    font-weight: 600;
+    margin-left: -25px;
+
+}
+
+.carbigheadline1{
+  font-size: 25px;
+color: black;
+font-weight: 700;
+   margin-left: -30px;
+
+
+}
+.carsmallheadline1{
+     margin-top: 0px;
+    font-size: 32px;
+    color: black;
+font-weight: 600;
+    margin-left: -25px;
+    color: black; 
+  font-family: 'Playfair Display SC', serif; margin-top: 0px;
+  
+}
+
+
+.carobtn{
+
+    color: white;
+    background-color: #717fe0;
+font-size: 14px;
+margin-left: -20px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 140px;
+  height: 40px;
+
+
+}
+
+.carobtn:hover{
+
+    color: white;
+    background-color:black;
+    font-size: 14px;
+  margin-top: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 25px;
+ width: 140px;
+  height: 40px;
+
+}
+
+
+.menwomenbox1{
+	border: 1px solid #CCCCCC;
+	margin-left: 0px;
+}
+.menwomenbox{
+	border: 1px solid #CCCCCC;
+	margin-left: 0px;
+	margin-left: 20px;
+}
+.menwomentextbigacce{
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.menwomentextbig{
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 20px;
+
+}
+.menwomentextsmall{
+	
+	color: grey;
+	text-align: left;
+	font-size: 15px;
+}  
+.bg{
+      background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+    background-image: url('https://preview.colorlib.com/theme/product/images/xhero_bg_1.jpg.pagespeed.ic.HmpV2DGVQl.webp');
+    }
+.whitebg{
+	background-color: white;
+	position: absolute;
+	margin-top: 100px;
+
+}
+}
+@media (min-width: 1024px)  and (max-width: 1300px)
+{
+    .navlist
+{
+margin-left: 50px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: black;
+}
+.navbar-nav
+{
+margin-left: 0px;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+}
